@@ -1,8 +1,8 @@
-# Juegos
+# Act1
 
-Cuatro diferentes juegos para una clase de la Semana Tec
+Un juego de pintar
 
-## Instalacion 
+## Instalacion
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
@@ -17,8 +17,25 @@ from turtle import *
 from freegames import vector
 ```
 
-## Contribuyentes 
-``` 
+## Como utilizar
+```
+colores:
+- presionar tecla K para el negro
+- presionar tecla W para el blanco
+- presionar tecla G para el verde
+- presionar tecla B para el azul
+- presionar tecla R para el rojo
+- presionar tecla Y para el amarillo
+Figuras:
+- linia(dafult) presionar tecla l
+- cuadrado presionar tecla s
+- circulo presionar tecla c
+- rectangulo presionar tecla r
+-triangulo presionar tecla t
+
+```
+## Contribuyentes
+```
 Victor P.
 Ismael M.
 Lorena P.
