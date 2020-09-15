@@ -7,7 +7,7 @@ def line(start, end):
     goto(start.x, start.y)
     down()
     goto(end.x, end.y)
-
+# dubuja el cuadrado
 def square(start, end):
     "Draw square from start to end."
     up()
@@ -20,7 +20,7 @@ def square(start, end):
         left(90)
 
     end_fill()
-
+# dibuja el circulo
 def circle(start, end):
     "Draw circle from start to end."
     up()
@@ -33,14 +33,14 @@ def circle(start, end):
         left(5)
 
     end_fill()
-
+# dibuja rectangulo
 def rectangle(start, end):
     "Draw rectangle from start to end."
     up()
     goto(start.x,start.y)
     down()
     begin_fill()
-    # dibuja el rectangulo 
+    # dibuja el rectangulo
     for count in range(2):
         forward(end.x - start.x)
         left(90)
@@ -48,7 +48,7 @@ def rectangle(start, end):
         left(90)
 
     end_fill()
-
+#dibuja triangulo
 def triangle(start, end):
     "Draw triangle from start to end."
     pass  # TODO
